@@ -397,6 +397,15 @@ app.add_middleware(
 
 evaluator = HybridATSEvaluator()
 
+
+@app.get("/")
+async def root():
+    return {"message": "ATS Evaluation API is running!"}
+
+@app.get("/health")
+async def health():
+    return {"status": "healthy"}
+
 @app.post("/evaluate/")
 async def evaluate_resume(
     file: UploadFile = File(...), 
