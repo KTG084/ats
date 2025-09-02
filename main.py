@@ -33,14 +33,14 @@ class ATSKeywords:
     programming_languages = {
     "python": 5, "java": 5, "c++": 5, "c": 4,
     "javascript": 4, "typescript": 3,
-    "html": 2, "css": 2, "sql": 4
+    "html": 2, "css": 2, "sql": 4, 
     }
 
     frameworks = {
     "react": 3, "nodejs": 3, "express": 3,
     "django": 3, "flask": 2,
     "pandas": 2, "numpy": 2,
-    "fastapi": 2, "nextjs": 2
+    "nextjs": 2, "tailwind": 4
     }
 
     cloud_devops = {
@@ -50,7 +50,6 @@ class ATSKeywords:
 
     databases = {
     "mysql": 3, "postgresql": 3, "mongodb": 3,
-     "redis": 2
     }
 
     technical_concepts = {
@@ -58,8 +57,7 @@ class ATSKeywords:
     "microservices": 2,
     "oops": 4, "object-oriented programming": 4,
     "algorithms": 5, "dsa": 5,
-    "data structures": 5, "system design": 3,
-    "webhooks": 2
+     "system design": 3,
     }
 
     cs_fundamentals = {
@@ -67,8 +65,8 @@ class ATSKeywords:
     }
 
     soft_skills = {
-    "teamwork": 2, "communication": 2, "collaboration": 2,
-    "problem solving": 4, "debugging": 3, "testing": 3,
+    "teamwork": 2,
+    "problem solving": 4, 
     "leadership": 2, "project management": 2
     }
 
