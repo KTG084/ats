@@ -57,7 +57,7 @@ class ATSKeywords:
     "microservices": 2,
     "oops": 4, "object-oriented programming": 4,
     "algorithms": 5, "dsa": 5,
-     "system design": 3,
+     "system design": 3, "competitive programming": 4
     }
 
     cs_fundamentals = {
